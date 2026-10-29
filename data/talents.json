@@ -8,7 +8,8 @@
       "generation": "0th Gen",
       "bio": "Salah satu talent generasi awal hololive production.",
       "status": "active",
-      "official": "https://hololive.hololivepro.com/en/talents/"
+      "official": "https://hololive.hololivepro.com/en/talents/",
+      "image": ""
     },
     {
       "id": "sakura-miko",
@@ -17,7 +18,8 @@
       "branch": "JP",
       "generation": "0th Gen",
       "bio": "Talent hololive yang dikenal dengan julukan Elite Miko.",
-      "status": "active"
+      "status": "active",
+      "image": ""
     },
     {
       "id": "hoshimachi-suisei",
@@ -25,7 +27,8 @@
       "nativeName": "星街すいせい",
       "branch": "JP",
       "generation": "0th Gen",
-      "bio": "Virtual idol dan penyanyi dari hololive."
+      "bio": "Virtual idol dan penyanyi dari hololive.",
+      "image": ""
     },
     {
       "id": "shirakami-fubuki",
@@ -33,7 +36,8 @@
       "nativeName": "白上フブキ",
       "branch": "JP",
       "generation": "1st Gen / GAMERS",
-      "bio": "Talent hololive yang juga menjadi bagian hololive GAMERS."
+      "bio": "Talent hololive yang juga menjadi bagian hololive GAMERS.",
+      "image": ""
     },
     {
       "id": "usada-pekora",
@@ -41,7 +45,8 @@
       "nativeName": "兎田ぺこら",
       "branch": "JP",
       "generation": "3rd Gen",
-      "bio": "Talent hololive generasi ketiga."
+      "bio": "Talent hololive generasi ketiga.",
+      "image": ""
     },
     {
       "id": "houshou-marine",
@@ -49,7 +54,8 @@
       "nativeName": "宝鐘マリン",
       "branch": "JP",
       "generation": "3rd Gen",
-      "bio": "Talent hololive generasi ketiga dan kapten bajak laut."
+      "bio": "Talent hololive generasi ketiga dan kapten bajak laut.",
+      "image": ""
     },
     {
       "id": "la-darknesss",
@@ -57,47 +63,53 @@
       "nativeName": "ラプラス・ダークネス",
       "branch": "JP",
       "generation": "Secret Society holoX",
-      "bio": "Pemimpin Secret Society holoX."
+      "bio": "Pemimpin Secret Society holoX.",
+      "image": ""
     },
     {
       "id": "kobo-kanaeru",
       "name": "Kobo Kanaeru",
       "nativeName": "こぼ・かなえる",
       "branch": "ID",
-      "generation": "hololive Indonesia Gen 3",
-      "bio": "Talent hololive Indonesia generasi ketiga."
+      "generation": "holoh3ro",
+      "bio": "Talent hololive Indonesia generasi ketiga.",
+      "image": ""
     },
     {
       "id": "moona-hoshinova",
       "name": "Moona Hoshinova",
       "nativeName": "ムーナ・ホシノヴァ",
       "branch": "ID",
-      "generation": "hololive Indonesia Gen 1",
-      "bio": "Talent hololive Indonesia generasi pertama."
+      "generation": "AREA15",
+      "bio": "Talent hololive Indonesia generasi pertama.",
+      "image": ""
     },
     {
       "id": "ayunda-risu",
       "name": "Ayunda Risu",
       "nativeName": "アユンダ・リス",
       "branch": "ID",
-      "generation": "hololive Indonesia Gen 1",
-      "bio": "Talent hololive Indonesia generasi pertama."
+      "generation": "AREA15",
+      "bio": "Talent hololive Indonesia generasi pertama.",
+      "image": ""
     },
     {
       "id": "kaela-kovalskia",
       "name": "Kaela Kovalskia",
       "nativeName": "カエラ・コヴァルスキア",
       "branch": "ID",
-      "generation": "hololive Indonesia Gen 3",
-      "bio": "Talent hololive Indonesia generasi ketiga."
+      "generation": "holoh3ro",
+      "bio": "Talent hololive Indonesia generasi ketiga.",
+      "image": ""
     },
     {
       "id": "vestia-zeta",
       "name": "Vestia Zeta",
       "nativeName": "ベスティア・ゼータ",
       "branch": "ID",
-      "generation": "hololive Indonesia Gen 3",
-      "bio": "Talent hololive Indonesia generasi ketiga."
+      "generation": "holoh3ro",
+      "bio": "Talent hololive Indonesia generasi ketiga.",
+      "image": ""
     },
     {
       "id": "mori-calliope",
@@ -105,7 +117,8 @@
       "nativeName": "森カリオペ",
       "branch": "EN",
       "generation": "Myth",
-      "bio": "Talent hololive English dengan aktivitas musik dan streaming."
+      "bio": "Talent hololive English dengan aktivitas musik dan streaming.",
+      "image": ""
     },
     {
       "id": "takanashi-kiara",
@@ -113,7 +126,8 @@
       "nativeName": "小鳥遊キアラ",
       "branch": "EN",
       "generation": "Myth",
-      "bio": "Talent hololive English generasi Myth."
+      "bio": "Talent hololive English generasi Myth.",
+      "image": ""
     },
     {
       "id": "ninomae-inanis",
@@ -121,7 +135,8 @@
       "nativeName": "一伊那尓栖",
       "branch": "EN",
       "generation": "Myth",
-      "bio": "Talent hololive English generasi Myth."
+      "bio": "Talent hololive English generasi Myth.",
+      "image": ""
     },
     {
       "id": "irys",
@@ -129,7 +144,8 @@
       "nativeName": "アイリス",
       "branch": "EN",
       "generation": "Promise",
-      "bio": "Talent hololive English yang dikenal sebagai Nephilim."
+      "bio": "Talent hololive English yang dikenal sebagai Nephilim.",
+      "image": ""
     },
     {
       "id": "ouro-kronii",
@@ -137,7 +153,8 @@
       "nativeName": "オーロ・クロニー",
       "branch": "EN",
       "generation": "Promise",
-      "bio": "Talent hololive English dari unit Promise."
+      "bio": "Talent hololive English dari unit Promise.",
+      "image": ""
     },
     {
       "id": "shiori-novella",
@@ -145,7 +162,8 @@
       "nativeName": "シオリ・ノヴェラ",
       "branch": "EN",
       "generation": "Advent",
-      "bio": "Talent hololive English generasi Advent."
+      "bio": "Talent hololive English generasi Advent.",
+      "image": ""
     },
     {
       "id": "elizabeth-rose-bloodflame",
@@ -153,7 +171,8 @@
       "nativeName": "エリザベス・ローズ・ブラッドフレイム",
       "branch": "EN",
       "generation": "Justice",
-      "bio": "Talent hololive English generasi Justice."
+      "bio": "Talent hololive English generasi Justice.",
+      "image": ""
     },
     {
       "id": "asobi-mawari-tai",
@@ -162,7 +181,8 @@
       "branch": "ASOBI",
       "generation": "Unit",
       "bio": "Unit yang tercantum pada direktori talent resmi hololive. Lengkapi profil dan tautan unit melalui JSON milikmu.",
-      "official": "https://hololive.hololivepro.com/en/talents/"
+      "official": "https://hololive.hololivepro.com/en/talents/",
+      "image": ""
     }
   ]
 }

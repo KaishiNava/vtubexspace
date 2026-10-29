@@ -55,3 +55,17 @@ Field `branch` yang direkomendasikan: `ID`, `JP`, `EN`, `ASOBI`. Field gambar be
 
 ## Catatan data dan merek
 Data di `data/talents.json` adalah contoh awal untuk menguji tampilan, bukan klaim sebagai database lengkap atau real-time. Lengkapi dan perbarui data melalui JSON yang kamu kelola. Nama, gambar, logo, dan merek talent adalah milik pemegang haknya. Proyek ini tidak resmi dan tidak berafiliasi dengan COVER Corp. Periksa ketentuan penggunaan dan izin sebelum menggunakan aset pihak ketiga.
+
+
+## Troubleshooting jika data tidak muncul
+- Pastikan `GITHUB_JSON_URL` di `config.js` adalah URL RAW file, misalnya `https://raw.githubusercontent.com/USERNAME/REPO/main/data/talents.json`.
+- Repository dan file JSON harus publik; URL halaman `github.com/.../blob/...` bukan URL RAW.
+- Pastikan JSON valid dan bentuknya array atau object dengan properti `talents`/`data`.
+- Gunakan static hosting (Vercel/GitHub Pages), bukan membuka `index.html` langsung sebagai `file://`.
+- Website kini memberi timeout dan pesan error yang terlihat, lalu mencoba JSON lokal jika GitHub gagal.
+
+## Gambar talent
+Tambahkan URL gambar langsung di field `image` untuk tiap talent. Contoh: `"image": "https://example.com/talent.png"`. URL harus publik dan mengarah langsung ke file gambar.
+
+## Filter generasi/unit
+Filter subgroup dibuat dari nilai `generation`, `gen`, `unit`, atau `group_name`. Untuk Indonesia, isi nama unit dengan `AREA15`, `holoro`, atau `holoh3ro`. Untuk English gunakan `Myth`, `Promise`, `Advent`, atau `Justice`; untuk Jepang gunakan nama generasi/unit masing-masing.
