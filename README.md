@@ -69,3 +69,7 @@ Tambahkan URL gambar langsung di field `image` untuk tiap talent. Contoh: `"imag
 
 ## Filter generasi/unit
 Filter subgroup dibuat dari nilai `generation`, `gen`, `unit`, atau `group_name`. Untuk Indonesia, isi nama unit dengan `AREA15`, `holoro`, atau `holoh3ro`. Untuk English gunakan `Myth`, `Promise`, `Advent`, atau `Justice`; untuk Jepang gunakan nama generasi/unit masing-masing.
+
+
+## Roster update
+Database contoh diperluas dengan roster dari direktori talent resmi yang tersedia saat update, termasuk ASOBI★MAWARI-TAI! (Achichi Mela dan Sorashina Sopia) dan halaman khusus alumni. Periksa ulang direktori resmi jika ada debut, perubahan status, atau pengumuman terbaru. Kolom `image` sengaja kosong agar pemilik proyek dapat mengisi URL gambar publik yang punya izin penggunaan.

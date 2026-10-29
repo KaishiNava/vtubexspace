@@ -14,3 +14,6 @@
 .load-error strong{font:700 16px var(--display);color:#a52b3a}
 .load-error p{margin:8px 0;color:#806d73;overflow-wrap:anywhere}
 @media(max-width:760px){.subgroup-pills{margin-top:0;margin-bottom:15px}.subgroup-pills .filter-pill{padding:7px 10px}}
+
+/* Alumni directory and larger complete roster */
+.nav-item[data-page="alumni"] .nav-icon{color:#6d7b95}

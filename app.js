@@ -96,6 +96,7 @@
     if(state.page==="en")return ["hololive English","Pilih generasi dari branch English."];
     if(state.page==="asobi")return ["ASOBI★MAWARI-TAI!","Kenali unit ASOBI★MAWARI-TAI!."];
     if(state.page==="favorites")return ["Talent favorit","Daftar talent yang kamu simpan di perangkat ini."];
+    if(state.page==="alumni")return ["Talent yang sudah lulus","Kenang dan jelajahi profil talent alumni hololive."];
     return ["Explore talents","Cari talent berdasarkan nama, branch, atau generasi."];
   }
   function isAlum(t){const s=String(t.status||t.activity||"").toLowerCase();return t.alum===true||t.graduated===true||s.includes("alum")||s.includes("graduat")||s.includes("retir")}
@@ -124,6 +125,7 @@
     let list=[...state.talents],branch=pageBranch();
     if(branch)list=list.filter(t=>t.branch===branch);
     if(state.page==="favorites")list=list.filter(t=>state.favorites.has(keyOf(t)));
+    if(state.page==="alumni")list=list.filter(isAlum);
     if(state.filter==="active")list=list.filter(t=>!isAlum(t));
     if(state.filter==="alum")list=list.filter(isAlum);
     if(state.subgroup!=="all")list=list.filter(t=>groupName(t).toLowerCase()===state.subgroup.toLowerCase());
@@ -198,7 +200,7 @@
   $("#exploreBtn").addEventListener("click",()=>$("#directory").scrollIntoView({behavior:"smooth"}));
   $("#resetFilters").addEventListener("click",()=>{state.filter="all";state.subgroup="all";state.query="";$("#searchInput").value="";render()});
   $("#retryData").addEventListener("click",loadData);
-  window.addEventListener("hashchange",()=>{const p=location.hash.slice(1);if(["home","id","jp","en","asobi","favorites","about"].includes(p)&&p!==state.page)go(p)});
+  window.addEventListener("hashchange",()=>{const p=location.hash.slice(1);if(["home","id","jp","en","asobi","favorites","alumni","about"].includes(p)&&p!==state.page)go(p)});
   // About page uses the same content area and remains client-side.
   const baseRender=render;
   render=function(){
@@ -211,6 +213,6 @@
     }
     const about=$("#aboutContent");if(about)about.remove();baseRender();
   };
-  const initial=location.hash.slice(1);state.page=["id","jp","en","asobi","favorites","about"].includes(initial)?initial:"home";
+  const initial=location.hash.slice(1);state.page=["id","jp","en","asobi","favorites","alumni","about"].includes(initial)?initial:"home";
   loadData();
 })();
