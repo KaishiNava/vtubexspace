@@ -73,3 +73,9 @@ Filter subgroup dibuat dari nilai `generation`, `gen`, `unit`, atau `group_name`
 
 ## Roster update
 Database contoh diperluas dengan roster dari direktori talent resmi yang tersedia saat update, termasuk ASOBI★MAWARI-TAI! (Achichi Mela dan Sorashina Sopia) dan halaman khusus alumni. Periksa ulang direktori resmi jika ada debut, perubahan status, atau pengumuman terbaru. Kolom `image` sengaja kosong agar pemilik proyek dapat mengisi URL gambar publik yang punya izin penggunaan.
+
+
+## Data resmi dan ASOBI★MAWARI-TAI!
+Direktori ini memuat empat anggota ASOBI★MAWARI-TAI!: Hyakuto Kyoko, Achichi Mela, Suzuna Tsuzuri, dan Sorashina Sopia. Profil keempatnya dilengkapi bio Bahasa Indonesia, tanggal debut, ulang tahun, tinggi, ilustrator, nama fandom, fan mark, hashtag, serta tautan akun resmi berdasarkan halaman talent hololive. Sumber: https://hololive.hololivepro.com/en/talents dan https://hololive.hololivepro.com/en/special/22761/.
+
+Data lokal `data/talents.json` sudah disertakan. Website bisa dijalankan tanpa menghubungkan GitHub; URL GitHub hanya opsi jika kamu memang ingin memelihara data terpisah.
