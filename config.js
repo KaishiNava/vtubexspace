@@ -6,7 +6,7 @@
  * Biarkan kosong ("") untuk memakai data contoh lokal data/talents.json.
  */
 window.VX_CONFIG = {
-  GITHUB_JSON_URL: "",
+  GITHUB_JSON_URL: "https://raw.githubusercontent.com/KaishiNava/vtubexspace/refs/heads/main/data/talents.json",
   LOCAL_JSON_URL: "data/talents.json",
   SITE_NAME: "VTUBE XSPACE"
 };
