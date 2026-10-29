@@ -1,0 +1,168 @@
+{
+  "talents": [
+    {
+      "id": "tokino-sora",
+      "name": "Tokino Sora",
+      "nativeName": "ときのそら",
+      "branch": "JP",
+      "generation": "0th Gen",
+      "bio": "Salah satu talent generasi awal hololive production.",
+      "status": "active",
+      "official": "https://hololive.hololivepro.com/en/talents/"
+    },
+    {
+      "id": "sakura-miko",
+      "name": "Sakura Miko",
+      "nativeName": "さくらみこ",
+      "branch": "JP",
+      "generation": "0th Gen",
+      "bio": "Talent hololive yang dikenal dengan julukan Elite Miko.",
+      "status": "active"
+    },
+    {
+      "id": "hoshimachi-suisei",
+      "name": "Hoshimachi Suisei",
+      "nativeName": "星街すいせい",
+      "branch": "JP",
+      "generation": "0th Gen",
+      "bio": "Virtual idol dan penyanyi dari hololive."
+    },
+    {
+      "id": "shirakami-fubuki",
+      "name": "Shirakami Fubuki",
+      "nativeName": "白上フブキ",
+      "branch": "JP",
+      "generation": "1st Gen / GAMERS",
+      "bio": "Talent hololive yang juga menjadi bagian hololive GAMERS."
+    },
+    {
+      "id": "usada-pekora",
+      "name": "Usada Pekora",
+      "nativeName": "兎田ぺこら",
+      "branch": "JP",
+      "generation": "3rd Gen",
+      "bio": "Talent hololive generasi ketiga."
+    },
+    {
+      "id": "houshou-marine",
+      "name": "Houshou Marine",
+      "nativeName": "宝鐘マリン",
+      "branch": "JP",
+      "generation": "3rd Gen",
+      "bio": "Talent hololive generasi ketiga dan kapten bajak laut."
+    },
+    {
+      "id": "la-darknesss",
+      "name": "La+ Darknesss",
+      "nativeName": "ラプラス・ダークネス",
+      "branch": "JP",
+      "generation": "Secret Society holoX",
+      "bio": "Pemimpin Secret Society holoX."
+    },
+    {
+      "id": "kobo-kanaeru",
+      "name": "Kobo Kanaeru",
+      "nativeName": "こぼ・かなえる",
+      "branch": "ID",
+      "generation": "hololive Indonesia Gen 3",
+      "bio": "Talent hololive Indonesia generasi ketiga."
+    },
+    {
+      "id": "moona-hoshinova",
+      "name": "Moona Hoshinova",
+      "nativeName": "ムーナ・ホシノヴァ",
+      "branch": "ID",
+      "generation": "hololive Indonesia Gen 1",
+      "bio": "Talent hololive Indonesia generasi pertama."
+    },
+    {
+      "id": "ayunda-risu",
+      "name": "Ayunda Risu",
+      "nativeName": "アユンダ・リス",
+      "branch": "ID",
+      "generation": "hololive Indonesia Gen 1",
+      "bio": "Talent hololive Indonesia generasi pertama."
+    },
+    {
+      "id": "kaela-kovalskia",
+      "name": "Kaela Kovalskia",
+      "nativeName": "カエラ・コヴァルスキア",
+      "branch": "ID",
+      "generation": "hololive Indonesia Gen 3",
+      "bio": "Talent hololive Indonesia generasi ketiga."
+    },
+    {
+      "id": "vestia-zeta",
+      "name": "Vestia Zeta",
+      "nativeName": "ベスティア・ゼータ",
+      "branch": "ID",
+      "generation": "hololive Indonesia Gen 3",
+      "bio": "Talent hololive Indonesia generasi ketiga."
+    },
+    {
+      "id": "mori-calliope",
+      "name": "Mori Calliope",
+      "nativeName": "森カリオペ",
+      "branch": "EN",
+      "generation": "Myth",
+      "bio": "Talent hololive English dengan aktivitas musik dan streaming."
+    },
+    {
+      "id": "takanashi-kiara",
+      "name": "Takanashi Kiara",
+      "nativeName": "小鳥遊キアラ",
+      "branch": "EN",
+      "generation": "Myth",
+      "bio": "Talent hololive English generasi Myth."
+    },
+    {
+      "id": "ninomae-inanis",
+      "name": "Ninomae Ina'nis",
+      "nativeName": "一伊那尓栖",
+      "branch": "EN",
+      "generation": "Myth",
+      "bio": "Talent hololive English generasi Myth."
+    },
+    {
+      "id": "irys",
+      "name": "IRyS",
+      "nativeName": "アイリス",
+      "branch": "EN",
+      "generation": "Promise",
+      "bio": "Talent hololive English yang dikenal sebagai Nephilim."
+    },
+    {
+      "id": "ouro-kronii",
+      "name": "Ouro Kronii",
+      "nativeName": "オーロ・クロニー",
+      "branch": "EN",
+      "generation": "Promise",
+      "bio": "Talent hololive English dari unit Promise."
+    },
+    {
+      "id": "shiori-novella",
+      "name": "Shiori Novella",
+      "nativeName": "シオリ・ノヴェラ",
+      "branch": "EN",
+      "generation": "Advent",
+      "bio": "Talent hololive English generasi Advent."
+    },
+    {
+      "id": "elizabeth-rose-bloodflame",
+      "name": "Elizabeth Rose Bloodflame",
+      "nativeName": "エリザベス・ローズ・ブラッドフレイム",
+      "branch": "EN",
+      "generation": "Justice",
+      "bio": "Talent hololive English generasi Justice."
+    },
+    {
+      "id": "asobi-mawari-tai",
+      "name": "ASOBI★MAWARI-TAI!",
+      "nativeName": "アソビ★まわり隊！",
+      "branch": "ASOBI",
+      "generation": "Unit",
+      "bio": "Unit yang tercantum pada direktori talent resmi hololive. Lengkapi profil dan tautan unit melalui JSON milikmu.",
+      "official": "https://hololive.hololivepro.com/en/talents/"
+    }
+  ]
+}
